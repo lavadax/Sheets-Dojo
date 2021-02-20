@@ -6,29 +6,47 @@
     height:100px;
     font-weight:bold;
     position:relative;
-    bottom:-150px;
+    bottom:-50px;
 }
 
 .nav-top li a {
     padding:20px;
     width:60px;
     height:60px;
+    color:#fff;
+    border: 2px solid #CF1717;
+    border-radius:7px;
 }
 
-/* html styling */
+.nav-top li a:hover {
+    color:#000;
+    background-color:#fff;
+    border-color:#CF1717;
+    text-decoration:none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* general styling */
 
 header {
     padding: 0;
     margin: 0;
-    height: 200px;
+    height: 100px;
     width:100%;
     float: left;
     border-bottom: 5px solid #CD1717;
     background-color: #000;
 }
-#logo {
-    height: 100%;
+
+#logo-container {
     position:absolute;
     left:0; /* fit logo to left */
     top:0; /* fot logo to top */
+    padding:0;
+    margin:0;
+}
+
+#logo {
+    height: 100px;
+    width: auto;
 }
